@@ -1,0 +1,5 @@
+Same building as the reference image (a fictional green supertall inspired by Taipei 101), redrawn from the NORTH side as an architectural elevation reference for 3D modelling.
+View: strict BACK elevation, orthographic (no perspective), identical height, proportions, segment count, crown and spire as the reference, whole building fully in frame with the same margins.
+This shaded north facade has NO solar panels: ordinary blue-green reflective glass curtain wall with the same mullion rhythm, the same green terraces on the segment ledges, and a service entrance at the podium.
+Background: plain flat light grey (#BFBFBF), no sky, no other buildings, no ground shadow. Even soft neutral studio light.
+No text, no labels, no people, no cars.

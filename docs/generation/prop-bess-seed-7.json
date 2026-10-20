@@ -1,0 +1,22 @@
+{
+  "name": "prop-bess",
+  "model": "microsoft/TRELLIS.2-4B",
+  "pipeline": "1536_cascade",
+  "seed": 7,
+  "views": [
+    "front"
+  ],
+  "temperature": null,
+  "inputs_sha256": {
+    "front": "eb088dca50bc6a7ca0613d8c69969f3bd02691d03976f14e3b0c485d12c38f41"
+  },
+  "gpu": "NVIDIA H100 80GB HBM3",
+  "actual_resolution": 1152,
+  "inference_seconds": 154.7,
+  "export_seconds": 45.9,
+  "source_triangles": 50154316,
+  "decimation_target": 120000,
+  "texture_size": 2048,
+  "invocation_seconds": 289.0,
+  "status": "completed"
+}

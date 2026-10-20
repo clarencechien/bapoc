@@ -1,0 +1,5 @@
+Same building as the reference image (a fictional green supertall inspired by Taipei 101), redrawn from the EAST side as an architectural elevation reference for 3D modelling.
+View: strict SIDE elevation, orthographic (no perspective), identical height, proportions, segment count, crown and spire as the reference, whole building fully in frame with the same margins.
+This east facade is also a sunny facade, so like the reference it is clad in semi-transparent dark blue-violet photovoltaic glass with a fine regular cell grid and silver mullions, with the same green terraces.
+Background: plain flat light grey (#BFBFBF), no sky, no other buildings, no ground shadow. Even soft neutral studio light.
+No text, no labels, no people, no cars.

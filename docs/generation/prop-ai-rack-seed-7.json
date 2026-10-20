@@ -1,0 +1,22 @@
+{
+  "name": "prop-ai-rack",
+  "model": "microsoft/TRELLIS.2-4B",
+  "pipeline": "1536_cascade",
+  "seed": 7,
+  "views": [
+    "front"
+  ],
+  "temperature": null,
+  "inputs_sha256": {
+    "front": "d7bc44224d1959e88cac3c717a467f564912dac2e8d908fbe9c29288651ba601"
+  },
+  "gpu": "NVIDIA H100 80GB HBM3",
+  "actual_resolution": 1536,
+  "inference_seconds": 187.4,
+  "export_seconds": 45.5,
+  "source_triangles": 40639698,
+  "decimation_target": 120000,
+  "texture_size": 2048,
+  "invocation_seconds": 311.4,
+  "status": "completed"
+}

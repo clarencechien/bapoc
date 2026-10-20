@@ -1,0 +1,3 @@
+Product reference for 3D modelling: a modern DC fast EV charging station pillar for a parking garage, about 1.9 m tall, white and teal body, a glowing teal LED ring, a touch screen, one thick charging cable with a CCS connector hanging in a holster, on a small concrete plinth.
+View: three-quarter view from the front-right, the whole object fully in frame with margin, centered.
+Background: plain flat light grey (#BFBFBF), no floor, no shadow. Even soft neutral studio light. No text, no logos, no people.

@@ -1,0 +1,88 @@
+[
+  {
+    "file": "tower-south.png",
+    "model": "gemini-3-pro-image",
+    "prompt": "Architectural elevation reference for 3D modelling of a fictional green supertall skyscraper, \"T-City Green Tower\", inspired by Taipei 101.\nMassing: the same silhouette language as Taipei 101: a tall square podium base, then eight stacked flared segments of eight floors each (each segment widens slightly upward like a stack of pagoda tiers / bamboo nodes), a tapering crown, and a slender spire. Overall very tall and slender.\nThis view: the SOUTH facade, strict FRONT elevation, orthographic (no perspective, no tilt), the whole building from the ground plaza to the spire tip fully in frame with margin, centered.\nGreen retrofit on this sunny facade: the curtain wall of every segment is clad in semi-transparent building-integrated photovoltaic glass: a fine regular grid of dark blue-violet translucent solar cells you can partly see through, with thin silver mullions, catching light. Small green terraces with plants on the segment ledges. The podium has a glass entrance and a low wide base.\nBackground: plain flat light grey (#BFBFBF), no sky, no other buildings, no ground shadow, no glow. Lighting: even, soft neutral studio light so the true colours read.\nNo text, no labels, no people, no cars.",
+    "references": [],
+    "aspect": "9:16",
+    "size": "2K",
+    "output_tokens": 1324,
+    "seconds": 23.9
+  },
+  {
+    "file": "tower-north.png",
+    "model": "gemini-3-pro-image",
+    "prompt": "Same building as the reference image (a fictional green supertall inspired by Taipei 101), redrawn from the NORTH side as an architectural elevation reference for 3D modelling.\nView: strict BACK elevation, orthographic (no perspective), identical height, proportions, segment count, crown and spire as the reference, whole building fully in frame with the same margins.\nThis shaded north facade has NO solar panels: ordinary blue-green reflective glass curtain wall with the same mullion rhythm, the same green terraces on the segment ledges, and a service entrance at the podium.\nBackground: plain flat light grey (#BFBFBF), no sky, no other buildings, no ground shadow. Even soft neutral studio light.\nNo text, no labels, no people, no cars.",
+    "references": [
+      "tower-south.png"
+    ],
+    "aspect": "9:16",
+    "size": "2K",
+    "output_tokens": 1323,
+    "seconds": 28.3
+  },
+  {
+    "file": "tower-east.png",
+    "model": "gemini-3-pro-image",
+    "prompt": "Same building as the reference image (a fictional green supertall inspired by Taipei 101), redrawn from the EAST side as an architectural elevation reference for 3D modelling.\nView: strict SIDE elevation, orthographic (no perspective), identical height, proportions, segment count, crown and spire as the reference, whole building fully in frame with the same margins.\nThis east facade is also a sunny facade, so like the reference it is clad in semi-transparent dark blue-violet photovoltaic glass with a fine regular cell grid and silver mullions, with the same green terraces.\nBackground: plain flat light grey (#BFBFBF), no sky, no other buildings, no ground shadow. Even soft neutral studio light.\nNo text, no labels, no people, no cars.",
+    "references": [
+      "tower-south.png"
+    ],
+    "aspect": "9:16",
+    "size": "2K",
+    "output_tokens": 1276,
+    "seconds": 24.7
+  },
+  {
+    "file": "tower-west.png",
+    "model": "gemini-3-pro-image",
+    "prompt": "Same building as the reference image (a fictional green supertall inspired by Taipei 101), redrawn from the WEST side as an architectural elevation reference for 3D modelling.\nView: strict SIDE elevation, orthographic (no perspective), identical height, proportions, segment count, crown and spire as the reference, whole building fully in frame with the same margins.\nThis west facade has NO solar panels: ordinary blue-green reflective glass curtain wall with the same mullion rhythm and the same green terraces on the segment ledges.\nBackground: plain flat light grey (#BFBFBF), no sky, no other buildings, no ground shadow. Even soft neutral studio light.\nNo text, no labels, no people, no cars.",
+    "references": [
+      "tower-south.png"
+    ],
+    "aspect": "9:16",
+    "size": "2K",
+    "output_tokens": 1303,
+    "seconds": 21.5
+  },
+  {
+    "file": "prop-bess.png",
+    "model": "gemini-3-pro-image",
+    "prompt": "Product reference for 3D modelling: a single utility-scale battery energy storage system (BESS) cabinet for a building basement: a white and dark-grey steel enclosure about 2.5 m wide and 2.3 m tall, with front doors open on one half to show stacked lithium battery modules with green status LEDs, a liquid-cooling unit on the side, cable trays on top, a small display panel.\nView: three-quarter view from the front-left at a slight high angle, the whole object fully in frame with margin, centered.\nBackground: plain flat light grey (#BFBFBF), no floor, no shadow. Even soft neutral studio light. No text, no logos, no people.",
+    "references": [],
+    "aspect": "1:1",
+    "size": "2K",
+    "output_tokens": 1299,
+    "seconds": 20.1
+  },
+  {
+    "file": "prop-ev.png",
+    "model": "gemini-3-pro-image",
+    "prompt": "Product reference for 3D modelling: a modern DC fast EV charging station pillar for a parking garage, about 1.9 m tall, white and teal body, a glowing teal LED ring, a touch screen, one thick charging cable with a CCS connector hanging in a holster, on a small concrete plinth.\nView: three-quarter view from the front-right, the whole object fully in frame with margin, centered.\nBackground: plain flat light grey (#BFBFBF), no floor, no shadow. Even soft neutral studio light. No text, no logos, no people.",
+    "references": [],
+    "aspect": "1:1",
+    "size": "2K",
+    "output_tokens": 1275,
+    "seconds": 20.7
+  },
+  {
+    "file": "prop-ai-rack.png",
+    "model": "gemini-3-pro-image",
+    "prompt": "Product reference for 3D modelling: one AI data-center pod: a row of three liquid-cooled GPU server racks joined as one block, matte black with a glass front door showing dense server blades with small blue status lights, orange and blue coolant pipes running along the top into a coolant distribution unit at one end.\nView: three-quarter view from the front-left at a slight high angle, the whole object fully in frame with margin, centered.\nBackground: plain flat light grey (#BFBFBF), no floor, no shadow. Even soft neutral studio light. No text, no logos, no people.",
+    "references": [],
+    "aspect": "1:1",
+    "size": "2K",
+    "output_tokens": 1301,
+    "seconds": 19.8
+  },
+  {
+    "file": "scene-concept.png",
+    "model": "gemini-3-pro-image",
+    "prompt": "Photorealistic aerial concept photo at golden hour of a fictional city \"T-City\": a green supertall skyscraper inspired by Taipei 101 (stacked flared pagoda-like segments, crown and spire) whose south and east facades are clad in semi-transparent dark blue-violet photovoltaic glass, the other facades in ordinary blue-green glass, small planted terraces on the segment ledges. Around its podium: a plaza with trees, a parking entrance with rows of EV charging stations glowing teal. A subtle holographic digital-twin overlay: thin glowing cyan energy-flow lines running from the solar facades down into the basement, where a cutaway reveals battery storage cabinets and an AI data hall. Mountains in the background, clear sky.\nWide 16:9 composition. No text, no logos, no watermark.",
+    "references": [],
+    "aspect": "16:9",
+    "size": "2K",
+    "output_tokens": 1346,
+    "seconds": 21.9
+  }
+]

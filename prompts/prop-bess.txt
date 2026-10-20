@@ -1,0 +1,3 @@
+Product reference for 3D modelling: a single utility-scale battery energy storage system (BESS) cabinet for a building basement: a white and dark-grey steel enclosure about 2.5 m wide and 2.3 m tall, with front doors open on one half to show stacked lithium battery modules with green status LEDs, a liquid-cooling unit on the side, cable trays on top, a small display panel.
+View: three-quarter view from the front-left at a slight high angle, the whole object fully in frame with margin, centered.
+Background: plain flat light grey (#BFBFBF), no floor, no shadow. Even soft neutral studio light. No text, no logos, no people.

@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="data:," />
+  <title>T 市綠塔數位孿生</title>
+</head>
+<body>
+  <div id="app">
+    <div id="viewport">
+      <div id="labels"></div>
+      <div id="loading">載入 3D 模型中…</div>
+      <div class="view-bar">
+        <button data-view="overview" class="on">全景</button>
+        <button data-view="facade">外牆光電</button>
+        <button data-view="basement">地下室</button>
+        <button data-view="ai">AI 機房</button>
+        <label class="xray"><input type="checkbox" id="xray" /> 透視</label>
+      </div>
+      <div class="clock"><span id="clock">12:00</span><span id="price-tag"></span></div>
+    </div>
+    <aside id="panel">
+      <header>
+        <h1>T 市綠塔 · 能源數位孿生</h1>
+        <p class="note">虛構情境：以台北 101 外型為範例的綠建築。所有數據為合成，非實際營運資料。</p>
+      </header>
+
+      <section>
+        <div class="row">
+          <button id="play" aria-label="播放">▶</button>
+          <input id="time" type="range" min="0" max="95" value="48" />
+        </div>
+        <div class="row">
+          <select id="scenario"></select>
+          <label class="switch"><input type="checkbox" id="ems" checked /> 自動能源調度（EMS）</label>
+        </div>
+      </section>
+
+      <section>
+        <h2>即時能量平衡</h2>
+        <div id="flows" class="flows"></div>
+        <div id="balance" class="balance"></div>
+      </section>
+
+      <section>
+        <h2>24 小時</h2>
+        <canvas id="chart" height="170"></canvas>
+        <div class="legend" id="legend"></div>
+      </section>
+
+      <section>
+        <h2>調度策略</h2>
+        <label class="slider">契約容量 <output id="contract-v"></output><input id="contract" type="range" min="7" max="12" step="0.25" /></label>
+        <label class="slider">EV 充電總上限 <output id="evcap-v"></output><input id="evcap" type="range" min="0.3" max="2.5" step="0.1" /></label>
+        <label class="slider">AI 可延後訓練比例 <output id="aiflex-v"></output><input id="aiflex" type="range" min="0" max="0.6" step="0.05" /></label>
+        <label class="slider">儲能保留電量 <output id="reserve-v"></output><input id="reserve" type="range" min="0.1" max="0.6" step="0.05" /></label>
+      </section>
+
+      <section>
+        <h2>今日 KPI <small>（EMS 開啟 vs 無調度）</small></h2>
+        <div id="kpis" class="kpis"></div>
+      </section>
+
+      <section id="detail" hidden>
+        <h2 id="detail-title"></h2>
+        <div id="detail-body"></div>
+      </section>
+
+      <footer>
+        3D 模型由 Gemini 生成設計圖、TRELLIS.2 轉 3D。<a href="https://github.com/clarencechien/bapoc/blob/main/docs/PLAN.md">企劃與做法</a>
+      </footer>
+    </aside>
+  </div>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+</html>

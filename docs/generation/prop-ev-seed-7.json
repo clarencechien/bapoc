@@ -1,0 +1,22 @@
+{
+  "name": "prop-ev",
+  "model": "microsoft/TRELLIS.2-4B",
+  "pipeline": "1536_cascade",
+  "seed": 7,
+  "views": [
+    "front"
+  ],
+  "temperature": null,
+  "inputs_sha256": {
+    "front": "0cc0d88bf4192ed8c12b7d250b8b60148bb27ebd4cfafdc27cd59b792dfc38bd"
+  },
+  "gpu": "NVIDIA H100 80GB HBM3",
+  "actual_resolution": 1536,
+  "inference_seconds": 145.9,
+  "export_seconds": 27.3,
+  "source_triangles": 14202086,
+  "decimation_target": 120000,
+  "texture_size": 2048,
+  "invocation_seconds": 253.1,
+  "status": "completed"
+}

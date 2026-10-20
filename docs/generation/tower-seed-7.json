@@ -1,0 +1,45 @@
+{
+  "name": "tower",
+  "model": "microsoft/TRELLIS.2-4B",
+  "pipeline": "1536_cascade",
+  "seed": 7,
+  "views": [
+    "front",
+    "left",
+    "back",
+    "right"
+  ],
+  "temperature": 2.0,
+  "inputs_sha256": {
+    "front": "7b433e370755f674bb216227ebaa53f682746570e4f732b1f0c3736990443179",
+    "left": "7aa22600c3b49769fd6612fe97ee56c29d4755384122fa85729bc860e7bebd45",
+    "back": "624390bc101766f65e88add5505cc0979e63fc0527b1a44abad297e43fccedf5",
+    "right": "a994df13a88a3ccbbfc01de6258cd96a6d22f61fdcbde525f47933b2e3e13e83"
+  },
+  "gpu": "NVIDIA H100 80GB HBM3",
+  "actual_resolution": 1536,
+  "inference_seconds": 191.4,
+  "sparse_extent_xyz": [
+    [
+      9,
+      9,
+      31
+    ],
+    [
+      9,
+      9,
+      31
+    ],
+    [
+      9,
+      9,
+      31
+    ]
+  ],
+  "export_seconds": 106.4,
+  "source_triangles": 6318252,
+  "decimation_target": 400000,
+  "texture_size": 4096,
+  "invocation_seconds": 387.7,
+  "status": "completed"
+}

@@ -1,0 +1,6 @@
+Architectural elevation reference for 3D modelling of a fictional green supertall skyscraper, "T-City Green Tower", inspired by Taipei 101.
+Massing: the same silhouette language as Taipei 101: a tall square podium base, then eight stacked flared segments of eight floors each (each segment widens slightly upward like a stack of pagoda tiers / bamboo nodes), a tapering crown, and a slender spire. Overall very tall and slender.
+This view: the SOUTH facade, strict FRONT elevation, orthographic (no perspective, no tilt), the whole building from the ground plaza to the spire tip fully in frame with margin, centered.
+Green retrofit on this sunny facade: the curtain wall of every segment is clad in semi-transparent building-integrated photovoltaic glass: a fine regular grid of dark blue-violet translucent solar cells you can partly see through, with thin silver mullions, catching light. Small green terraces with plants on the segment ledges. The podium has a glass entrance and a low wide base.
+Background: plain flat light grey (#BFBFBF), no sky, no other buildings, no ground shadow, no glow. Lighting: even, soft neutral studio light so the true colours read.
+No text, no labels, no people, no cars.
